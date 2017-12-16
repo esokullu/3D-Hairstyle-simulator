@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>396</width>
-    <height>253</height>
+    <width>822</width>
+    <height>510</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,10 +29,18 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>396</width>
-     <height>20</height>
+     <width>822</width>
+     <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuHairstyles">
+    <property name="title">
+     <string>Причёски</string>
+    </property>
+    <addaction name="actionqweq"/>
+    <addaction name="actionfdsfds"/>
+   </widget>
+   <addaction name="menuHairstyles"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -43,6 +51,16 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionqweq">
+   <property name="text">
+    <string>qweq</string>
+   </property>
+  </action>
+  <action name="actionfdsfds">
+   <property name="text">
+    <string>fdsfds</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

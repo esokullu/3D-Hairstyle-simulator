@@ -11,4 +11,7 @@
         <file alias="head.frag">Resources/shaders/head.frag</file>
         <file alias="head.vert">Resources/shaders/head.vert</file>
     </qresource>
+    <qresource prefix="/">
+        <file>migrations/setup.sql</file>
+    </qresource>
 </RCC>

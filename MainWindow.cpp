@@ -2,6 +2,7 @@
 #include "ui_MainWindow.h"
 #include <QtCore>
 #include <QImage>
+#include <QAction>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), _ui(new Ui::MainWindow) {
     _vplayer = new VideoPlayer();
@@ -24,6 +25,10 @@ void MainWindow::updatePlayerUi(const QImage &image, cv::Mat rmat, cv::Mat tvec)
         _glWidget->updatePosition(rmat, tvec);
         _glWidget->updateBackgroundImage(image);
     }
+}
+
+void LoadHairstyleInMenu() {
+
 }
 
 void MainWindow::show() {
